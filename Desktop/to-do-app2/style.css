@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0 */
+}
+
+
+body {
+    background-image: linear-gradient(-135deg, #c2b97e 10%, #5f22a5 100%);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.clock {
+    position: fixed;
+    top: 30px;
+    left: 50px;
+}
+
+.clock span {
+    color: black;
+    position: fixed;
+    top: 30px;
+    left: 50px;
+    font-size: 30px;
+    font-family: serif;
+}
+
+.end {
+    position: fixed;
+    top: 30px;
+    right: 50px;
+}
+
+.end span {
+    color: black;
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    font-size: 30px;
+    font-family: serif;
+}
+
+
+.form-cnt {
+    font-family: sans-serif;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 3rem;
+    background: #fff;
+    border-radius: 5px;
+    max-width: 40rem;
+    margin: 1.7rem auto;
+
+}
+
+textarea {
+    padding: 1rem;
+    height: 10rem;
+    width: 100%;
+    border: 1px solid #aaa;
+    resize: vertical;
+    font-family: sans-serif;
+    border-radius: 5px;
+    font-family: sans-serif;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    max-width: 40rem;
+    margin: 2rem auto;
+}
+
+label {
+    display: block;
+    font-size: rem;
+    margin-bottom: 0.2rem;
+}
+
+.add {
+
+    padding: 0.4rem 1.6rem;
+    background: tomato;
+    color: #fff;
+    border: 0;
+    border-radius: 0.188rem;
+    transition: 0.4s all;
+    cursor: pointer;
+    float: right;
+    margin-top: 0
+}
+
+.icon-trash-empty {
+    float: right;
+    height: 15px;
+    width: 8px;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+.task-cnt {
+    font-family: sans-serif;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    width: 40rem;
+    margin: 2rem auto;
+
+}
+
+.task {
+    display: block;
+    margin: 10px;
+    word-wrap: break-word;
+    max-width: 40rem;
+
+}
+
+
+.taskList {
+    width: 100%;
+    margin: 2rem auto;
+
+}
+
+.end span {
+    max-width: 15rem;
+    word-wrap: break-word;
+}
+
+.search {
+    max-width: 8rem;
+    float: right;
+
+}
