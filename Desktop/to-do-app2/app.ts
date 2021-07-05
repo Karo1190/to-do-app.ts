@@ -86,6 +86,6 @@ setInterval(() => {
     let secs: number | string = Math.floor((endTime / 1000 - nowTime / 1000) % 60);
     secs = secs < 10 ? `0${secs}` : secs;
 
-    end.textContent = `Do końca dnia zostało: ${hours}h:${minutes}m:${secs}s`
+    end.textContent = `Do końca dnia zostało ff : ${hours}h:${minutes}m:${secs}s`
 
 }, 1000)
